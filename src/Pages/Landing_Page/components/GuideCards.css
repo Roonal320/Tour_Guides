@@ -1,0 +1,94 @@
+.btn_card{
+    height: 18rem;
+    width: 40rem;
+    background-color: #fff;
+    margin: 15px 10px 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 3px 2px 12px 2px rgb(0 0 0 / 30%);
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: -1;
+    
+}
+
+/* .cards_wrapper{
+    height: 18rem;
+    width: 40rem;
+    background-color: #fff;
+    margin: 15px 10px 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 3px 2px 12px 2px rgb(0 0 0 / 30%);
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+} */
+
+.MuiAvatar-root.MuiAvatar-circular.MuiAvatar-colorDefault{
+    width: 10rem;
+    height: 10rem;
+    font-size: 5.5rem;
+    margin:1rem;
+}
+.MuiAvatar-root.MuiAvatar-circular{
+    width: 10rem;
+    height: 10rem;
+    margin:1rem;
+}
+
+.Card_Name{
+    font-size: 2rem;
+    margin-bottom: -3%;
+}
+
+.info{
+    margin:1rem 1rem 0 0;
+    text-align: justify;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.info p{
+    color: rgb(206, 206, 206);
+    font-weight: lighter;
+    margin: -10px 0 -3px;
+
+}
+
+.price{
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: green;
+    padding-left: 5px;
+}
+.about{
+    height: 125px;
+    border-bottom: 1px solid #eee;
+}
+
+.about p{
+    font-size: 1rem;
+    font-family: "McLaren", cursive;
+    margin: 15px 0 0;
+    
+}
+
+.ratings{
+    display: inline-flex;
+    width:100%;
+    justify-content: space-around;
+    margin:10px 0;
+    
+}
+
+.rating_prop{
+    display: flex;
+    flex-direction: column;
+}
+

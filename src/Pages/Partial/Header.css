@@ -1,0 +1,37 @@
+.navbar{
+    background-color: #fff;
+    margin: auto;
+    padding: 16px 240px;
+    box-shadow: 1px 8px 10px 0 rgb(0 0 0 / 30%);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 75px;
+    position: sticky; top: 0;
+    z-index: 1;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.Logo{
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    color: #000;
+
+}
+
+.sideLinks{
+    font-family: "McLaren", cursive;
+    color:#000;
+    display: flex;
+}
+
+.sideLinks_content{
+    padding:5px;
+}
